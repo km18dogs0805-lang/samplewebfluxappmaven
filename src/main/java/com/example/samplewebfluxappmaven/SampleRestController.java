@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class SampleRestController {
 
-    // ルートに文字列を返す
+    // ルートに文字列がreturn
     @RequestMapping("/")
     public String hello() {
         return "Hello";
